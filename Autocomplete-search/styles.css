@@ -1,0 +1,18 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .recipe {
+    padding: 5px;
+  }
+  
+  .recipe.selected {
+    background-color: gray;
+  }
+  
+  .recipe:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+  

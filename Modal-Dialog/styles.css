@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .model-dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: auto;
+    background-color: lightgray;
+    z-index: 2; /* Above the overlay */
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay */
+    backdrop-filter: blur(8px); /* Blur effect */
+    z-index: 1;
+  }
